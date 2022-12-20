@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/mobile.css" />
+    <link rel="shortcut icon" type="image/png" href="./img/logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  
+    <script src="./javascript/main.js"></script>
+    <title>EverClean Window & Gutter Cleaning Services | Services</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <img class="logo" src="./img/logo.jpg" alt="business logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a class="current" href="services.html">Our Services</a></li>
+          <li><a href="contact.html">Book Now</a></li>
+        </ul>
+
+        <!-- sidenav for mobile device -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Our Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <span onclick="openNav()">&#9776;</span>
+      </nav>
+
+         </header>
+    <main>
+
+      <section class="container grid-2">
+        <div id="services">
+          <h2>Additional Services Available</h2>
+          <p>In addition to windows and gutters, we also provide gardening services.</p>
+           <p>Let us do the hard work for you.</p>
+        </div>
+        <div>
+          <img src="./img/services1.jpg" alt="landscape image">
+        </div>
+      </section>
+
+      <section class="container grid-3">
+        <div><img src="img/services4.jpg" alt="services"></div>
+        <div><img src="img/services5.jpg" alt="services"></div>
+        <div><img src="img/services6.jpg" alt="services"></div>
+      </section>
+
+      <section id="carousel">
+        <div>
+          <div class="carousel">
+            <ul class="slides">
+              <input type="radio" name="radio-buttons" id="img-1" checked />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="./img/slide1.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-3" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-2" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="./img/slide2.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-1" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-3" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-3" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="./img/slide3.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-2" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-4" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-4" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="./img/slide4.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-3" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-5" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-5" />
+              <li class="slide-container">\
+                <div class="slide-image">
+                  <img src="./img/slide5.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-4" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-1" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <div class="carousel-dots">
+                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      
+       
+
+      <section id="three" class="grid-2">
+        <div>
+          <h2> Contact Us</h2>
+          <p>Call: 07920 728205</p>
+          <p>Email: evercleanwindowcleaning@hotmail.com</p>
+        </div>
+        <div>
+          <h2>Find us on Facebook</h2>
+          <a
+            href="https://www.facebook.com/Everclean-Window-Gutter-Cleaning-Service-100548988713444/"
+            aria-label="Facebook"
+            target="_blank"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3 id="green">EverClean</h3>
+        Window & Gutter Cleaning Services
+      </div>
+
+      <div>
+        <p>
+          All Rights Reserved &copy; 2022 EverClean Window & Gutter Cleaning
+          Services
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+@media screen and (max-width: 820px){
+  .main-nav ul{
+    display: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+ height: 30vh; 
+ width: 0; 
+ position: fixed; 
+ z-index: 1; 
+ top: 0; 
+ left: 0;
+ background-color: var(--secondary-color); 
+ color: #fff;
+ overflow-x: hidden; 
+ padding-top: 30px; 
+ transition: 0.5s; 
+}
+
+/* The navigation menu links */
+.sidenav a {
+ 
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #fff;
+ display: block;
+ transition: 0.3s;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+
+span{
+display: inline;
+ color: #fff;
+ cursor: pointer;
+ font-size: 1.5rem;
+
+}
+
+span:hover{
+ color: var(--primary-color);
+}
+
+.sidenav{
+justify-items: center;
+}
+.sidenav .closebtn{
+justify-items: end;
+}
+  
+
+#two .grid-3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.carousel {
+  padding: 2rem 0;
+  margin: 0;
+}
+ul.slides {
+  height: 400px;
+}
+  
+ 
+  
+
+ 
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .grid-2, 
+  .grid-3{
+    grid-template-columns: 1fr;
+  }
+
+  #two .grid-3{
+    grid-template-columns: 1fr;
+  
+  }
+
+/* Home page */
+
+.overlay .main-nav h1{
+  font-size: 1rem;
+}
+
+.overlay-content{
+  font-size: smaller;
+}
+
+#one {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 1rem;
+  
+}
+
+#one h4{
+  padding-top: 1rem;
+}
+
+#one p{
+  text-align: left;
+  margin: 0;
+  padding: 1.5rem 0;
+}
+
+
+#one li {
+  list-style: disc;
+  margin-left: 1rem;
+  text-align: left;
+ 
+}
+
+#three{
+  font-size: 0.8rem;
+  justify-content: center;
+  text-align: center;
+  
+ 
+}
+
+#three p{
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+
+
+.footer p{
+  
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 0;
+  margin: 0;
+}
+
+
+.carousel {
+  padding: 2rem 0;
+  margin: 0;
+}
+ul.slides {
+  height: 300px;
+  
+ 
+  
+}
+}
+
+
+
+
+
